@@ -7,43 +7,31 @@ package modelo.fabricaabstracta;
  * Proporciona un metodo unico para obtener instancias de cualquier componente
  * sin exponer al cliente la logica de seleccion de fabrica.
  * 
- * Todas las fabricas concretas son creadas internamente.
- * 
- * @author
+ * Los atributos y metodo son estaticos, debido a que solo es necesario una instancia
+ * de cada fabrica para todo el programa, evitando inicializar cada fabrica cada vez
+ * que el programa necesite crear constantemente nuevas fabricas para usar el metodo.
  */
 public class DirectorFabrica {
-    private FabricaCPU fabricaCPU;
-    private FabricaRAM fabricaRAM;
-    private FabricaPlacaBase fabricaPlacaBase;
-    private FabricaHDD fabricaHDD;
-    private FabricaSSD fabricaSSD;
-    private FabricaFuenteAlimentacion fabricaFuente;
-    private FabricaGPU fabricaGPU;
-    private FabricaGabinete fabricaGabinete;
+
+    // Se inicializan todas las fabricas y se declaran estaticas
+    private static FabricaCPU fabricaCPU = new FabricaCPU();
+    private static FabricaRAM fabricaRAM = new FabricaRAM();
+    private static FabricaPlacaBase fabricaPlacaBase = new FabricaPlacaBase();
+    private static FabricaHDD fabricaHDD = new FabricaHDD();
+    private static FabricaSSD fabricaSSD = new FabricaSSD();
+    private static FabricaFuenteAlimentacion fabricaFuente = new FabricaFuenteAlimentacion();
+    private static FabricaGPU fabricaGPU = new FabricaGPU();
+    private static FabricaGabinete fabricaGabinete = new FabricaGabinete();
 
     /**
-     * Constructor que inicializa todas las fabricas concretas.
-     */
-    public DirectorFabrica() {
-        fabricaCPU = new FabricaCPU();
-        fabricaRAM = new FabricaRAM();
-        fabricaPlacaBase = new FabricaPlacaBase();
-        fabricaHDD = new FabricaHDD();
-        fabricaSSD = new FabricaSSD();
-        fabricaFuente = new FabricaFuenteAlimentacion();
-        fabricaGPU = new FabricaGPU();
-        fabricaGabinete = new FabricaGabinete();
-    }
-
-    /**
-     * Metodo que delega la creacion de un componente a la fabrica correspondiente.
+     * Metodo estatico que delega la creacion de un componente a la fabrica correspondiente.
      * Devuelve un componente en funcion del tipo de componente y modelo deseado.
      * 
      * @param componente El tipo de componente (por ejemplo, "CPU", "RAM", "GPU")
      * @param tipo El identificador del modelo (por ejemplo, "IntelCorei5_13600K")
      * @return el objeto componente correspondiente o {@code null} si no es reconocido.
      */
-    public Object nuevoComponente(String componente, String tipo) {
+    public static Object nuevoComponente(String componente, String tipo) {
         switch (componente) {
             case "CPU":
                 return fabricaCPU.getComponente(tipo);
