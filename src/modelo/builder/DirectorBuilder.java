@@ -3,7 +3,6 @@ package modelo.builder;
 import modelo.decorador.PCBase;
 
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 
 /**

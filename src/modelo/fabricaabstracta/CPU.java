@@ -68,7 +68,7 @@ public abstract class CPU {
     @Override
     public String toString() {
         return tipoComponente + ": " + nombre + ". Marca " + marca + ". " + cantidadNucleos + " nucleos."
-                + "\n*** Precio: $" + precio + " MXN";
+                + "\n\t*** Precio: $" + precio + " MXN";
     }
 
     /**
