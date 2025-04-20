@@ -1,6 +1,7 @@
 package modelo.decorador;
 
 import modelo.fabricaabstracta.*;
+import modelo.ComponenteIncompatibleException;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;
@@ -30,7 +31,15 @@ public class PCBase implements PC {
      * De acuerdo a los requerimientos del proyecto, la PC esta limitada a un solo componente CPU.
      * @return El modelo del componente {@code CPU}.
      */
-    public CPU getCPU(){
+    public CPU getCPU() throws ComponenteIncompatibleException {
+        List<Object> listaCPU = componentes.get("CPU");
+
+        // Si el modelo elegido del CPU no es un modelo compatible, listaCPU contiene un null ya que no obtuvo un componente compatible.
+        // Por lo tanto, se lanzara la excepcion personalizada.
+        if(listaCPU.contains(null)){
+            throw new ComponenteIncompatibleException("Modelo de CPU incompatible. Se procede a realizar una adaptacion manual.");
+        }
+
         return (CPU) componentes.get("CPU").get(0);
     }
 
@@ -116,6 +125,15 @@ public class PCBase implements PC {
      */
     public Gabinete getGabinete() {
         return (Gabinete) componentes.get("Gabinete").get(0);
+    }
+
+    /**
+     * Agrega o reemplaza un modelo conreto de CPU al mapa de componentes. 
+     * Util para agregar posteriormente una CPU incompatible despues del proceso de adaptacion.
+     * @param nuevoCPU Un {@code CPU} concreto que se agrega a la lista de modelos del mismo componente.
+     */
+    public void setCPU(CPU nuevoCPU) {
+        componentes.put("CPU", List.of((Object) nuevoCPU));
     }
     
     /**
