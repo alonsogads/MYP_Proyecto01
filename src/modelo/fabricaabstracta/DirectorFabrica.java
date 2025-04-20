@@ -1,5 +1,7 @@
 package modelo.fabricaabstracta;
 
+import modelo.ComponenteIncompatibleException;
+
 /**
  * Clase directora que centraliza la creacion de componentes individuales
  * usando las distintas fabricas concretas de AbstractFactory.
@@ -34,7 +36,16 @@ public class DirectorFabrica {
     public static Object nuevoComponente(String componente, String tipo) {
         switch (componente) {
             case "CPU":
-                return fabricaCPU.getComponente(tipo);
+                Object cpu = fabricaCPU.getComponente(tipo); // Obtenemos el CPU concreto
+
+                // Si el CPU es un modelo AMD, no adaptamos aun, en su lugar lanzamos una excepcion.
+                //  Por lo tanto, simularemos la "adaptacion" en {@code CentralCDMX}.
+                if (cpu instanceof modelo.adaptador.CPUAMD) {
+                    throw new ComponenteIncompatibleException(
+                        "CPU AMD detectada: \"" + tipo + "\" requiere una adptacion.");
+                }
+
+                return cpu;
             case "RAM":
                 return fabricaRAM.getComponente(tipo);
             case "PlacaBase":
