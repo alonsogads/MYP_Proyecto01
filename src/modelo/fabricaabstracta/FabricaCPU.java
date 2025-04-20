@@ -18,12 +18,16 @@ public class FabricaCPU extends FabricaAbstractaComponente{
         switch (tipo) {
             case "IntelCorei3_13100":
                 return new IntelCorei3_13100();
+                break;
             case "IntelCorei5_13600K":
                 return new IntelCorei5_13600K();
+                break;
             case "IntelCorei7_13700K":
                 return new IntelCorei7_13700K();
+                break;
             case "IntelCorei9_13900K":
                 return new IntelCorei9_13900K();
+                break;
             default:
                 return null;
         }
