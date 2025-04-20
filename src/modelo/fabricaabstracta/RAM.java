@@ -62,7 +62,7 @@ public abstract class RAM {
     }
 
     /**
-     * Devuelve una descripcion completa de la CPU.
+     * Devuelve una descripcion completa de la RAM.
      * @return Cadena que describe las caracteristicas del componente
      */
     @Override

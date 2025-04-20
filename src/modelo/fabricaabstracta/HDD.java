@@ -71,7 +71,7 @@ public abstract class HDD {
     }
 
     /**
-     * Devuelve una descripcion completa de la CPU.
+     * Devuelve una descripcion completa de la HDD.
      * @return Cadena que describe las caracteristicas del componente
      */
     @Override

@@ -71,7 +71,7 @@ public abstract class SSD {
     }
 
     /**
-     * Devuelve una descripcion completa de la CPU.
+     * Devuelve una descripcion completa de la SSD.
      * @return Cadena que describe las caracteristicas del componente
      */
     @Override
@@ -85,5 +85,5 @@ public abstract class SSD {
      * para definir su configuracion interna.
      */
     public abstract void crearSSD();
-    
+
 }
