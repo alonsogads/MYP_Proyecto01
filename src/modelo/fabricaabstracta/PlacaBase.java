@@ -1,10 +1,10 @@
 package modelo.fabricaabstracta;
 
 /**
- * Clase abstracta que representa un componente tipo RAM.
+ * Clase abstracta que representa un componente tipo Placa Base.
  * Contiene los atributos comunes de todos los componentes y tambien cuenta con
- * los atributos especificos de las RAMs. Ademas implementa los metodos comunes de 
- * las RAMs concretos para evitar la duplicacion de codigo en cada RAM concreto.
+ * los atributos especificos de la Placa Base. Ademas implementa los metodos comunes de 
+ * las Placas Base concretos para evitar la duplicacion de codigo en cada Placa Base concreto.
  * 
  * Esta clase abstracta (en lugar de una interfaz) es una de las plantillas 'ProductoConcreto' del patron AbstractFactory.
  */
@@ -13,15 +13,15 @@ public abstract class RAM {
     /* Por convencion de AbstractFactory, no se cuenta con un metodo constructor explicito, por lo que
     inicializarremos los atributos con valores predeterminados para poder crear de manera segura
     nuevas instancias de las RAMs concretas. Las subclases estableceran sus valores correspondientes 
-    en la implementacion del metodo {@code crearRAM()}. */
+    en la implementacion del metodo {@code crearPlacaBase()}. */
     protected String nombre = "";
     protected float precio = 0.0f;
     protected String marca = "";
     protected String tipoComponente = "";
-    protected short capacidad = 0; 
+    protected String chipset = ""; 
 
     /**
-     * Retorna el nombre de la RAM.
+     * Retorna el nombre de la Placa Base.
      * @return Nombre del componente
      */
     public String getNombre() {
@@ -29,7 +29,7 @@ public abstract class RAM {
     }
 
     /**
-     * Retorna el precio de la RAM.
+     * Retorna el precio de la Placa Base.
      * @return Precio como valor decimal del componente
      */
     public float getPrecio() {
@@ -37,7 +37,7 @@ public abstract class RAM {
     }
 
     /**
-     * Retorna la marca de la RAM.
+     * Retorna la marca de la Placa Base.
      * @return Marca del componente
      */
     public String getMarca() {
@@ -45,7 +45,7 @@ public abstract class RAM {
     }
 
     /**
-     * Retorna el tipo de componente, es decir RAM.
+     * Retorna el tipo de componente, es decir Placa Base.
      * @return Tipo del componente
      */
     public String getTipoComponente() {
@@ -54,11 +54,11 @@ public abstract class RAM {
 
 
     /**
-     * Retorna la capacidad de la RAM.
-     * @return Capacidad de la RAM
+     * Retorna el chipset de la Placa Base.
+     * @return El chipset del Placa Base
      */
-    public short getCapacidad() {
-        return capacidad;
+    public String getChipset() {
+        return chipset;
     }
 
     /**
@@ -67,7 +67,7 @@ public abstract class RAM {
      */
     @Override
     public String toString() {
-        return tipoComponente + ": " + nombre + ". Marca " + marca + ". " + capacidad + " capacidad."
+        return tipoComponente + ": " + nombre + ". Marca " + marca + ". " + chipset + " chipset."
                 + "\n\t*** Precio: $" + precio + " MXN";
     }
 
@@ -75,6 +75,6 @@ public abstract class RAM {
      * Metodo abstracto que cada subclase concreta debe implementar
      * para definir su configuracion interna.
      */
-    public abstract void crearRAM();
+    public abstract void crearPlacaBase();
 
 }
