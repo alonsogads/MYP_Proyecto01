@@ -1,4 +1,4 @@
-package modelo.adaptador;
+package modelo.adaptador; 
 
 import modelo.fabricaabstracta.CPU;
 
