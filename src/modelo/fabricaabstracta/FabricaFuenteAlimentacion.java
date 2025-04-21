@@ -15,25 +15,45 @@ public class FabricaFuenteAlimentacion extends FabricaAbstractaComponente{
      */
     @Override
     public Object getComponente(String tipo) {
+        FabricaFuenteAlimentacion fuenteAlimentacion;
+
         switch (tipo) {
             case "EVGA800W":
-                return new EVGA800W();
+                fuenteAlimentacion = new EVGA800W();
+                fuenteAlimentacion.crearFuenteAlimentacion();
+                return fuenteAlimentacion;
             case "EVGA1000W":
-                return new EVGA1000W();
+                fuenteAlimentacion = new EVGA1000W();
+                fuenteAlimentacion.crearFuenteAlimentacion();
+                return fuenteAlimentacion;
             case "EVGA1500W":
-                return new EVGA1500W();
+                fuenteAlimentacion = new EVGA1500W();
+                fuenteAlimentacion.crearFuenteAlimentacion();
+                return fuenteAlimentacion;
             case "Corsair800W":
-                return new Corsair800W();
+                fuenteAlimentacion = new Corsair800W();
+                fuenteAlimentacion.crearFuenteAlimentacion();
+                return fuenteAlimentacion;
             case "Corsair1200W":
-                return new Corsair1200W();
+                fuenteAlimentacion = new Corsair1200W();
+                fuenteAlimentacion.crearFuenteAlimentacion();
+                return fuenteAlimentacion;
             case "Corsair1500W":
-                return new Corsair1500W();
+                fuenteAlimentacion = new Corsair1500W();
+                fuenteAlimentacion.crearFuenteAlimentacion();
+                return fuenteAlimentacion;
             case "XPG500W":
-                return new XPG500W();
+                fuenteAlimentacion = new XPG500W();
+                fuenteAlimentacion.crearFuenteAlimentacion();
+                return fuenteAlimentacion;
             case "XPG700W":
-                return new XPG700W();
+                fuenteAlimentacion = new XPG700W();
+                fuenteAlimentacion.crearFuenteAlimentacion();
+                return fuenteAlimentacion;
             case "XPG1000W":
-                return new XPG1000W();
+                fuenteAlimentacion = new XPG1000W();
+                fuenteAlimentacion.crearFuenteAlimentacion();
+                return fuenteAlimentacion;
             default:
                 return null;
         }

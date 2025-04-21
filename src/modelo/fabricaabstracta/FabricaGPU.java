@@ -15,17 +15,28 @@ public class FabricaGPU extends FabricaAbstractaComponente{
      */
     @Override
     public Object getComponente(String tipo) {
+        GPU gpu;
         switch (tipo) {
             case "NVIDIA_GTX1660":
-                return new NVIDIA_GTX1660();
+                gpu = new NVIDIA_GTX1660();
+                gpu.crearGPU();
+                return gpu;
             case "NVIDIA_RTX3060":
-                return new NVIDIA_RTX3060();
+                gpu = new NVIDIA_RTX3060();
+                gpu.crearGPU();
+                return gpu;
             case "NVIDIA_RTX4070":
-                return new NVIDIA_RTX4070();
+                gpu = new NVIDIA_RTX4070();
+                gpu.crearGPU();
+                return gpu;
             case "NVIDIA_RTX4080":
-                return new NVIDIA_RTX4080();
+                gpu = new NVIDIA_RTX4080();
+                gpu.crearGPU();
+                return gpu;;
             case "NVIDIA_RTX4090":
-                return new NVIDIA_RTX4090();
+                gpu = new NVIDIA_RTX4090();
+                gpu.crearGPU();
+                return gpu;();
             default:
                 return null;
         }

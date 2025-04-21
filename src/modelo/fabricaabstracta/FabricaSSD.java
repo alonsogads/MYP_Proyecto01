@@ -15,15 +15,24 @@ public class FabricaSSD extends FabricaAbstractaComponente{
      */
     @Override
     public Object getComponente(String tipo) {
+        SSD ssd;
         switch (tipo) {
             case "Kingston500GB":
-                return new Kingston500GB();
+                ssd = new Kingston500GB();
+                ssd.crearSSD();
+                return ssd;
             case "Kingston1TB":
-                return new Kingston1TB();
+                ssd = new Kingston1TB();
+                ssd.crearSSD();
+                return ssd;
             case "Kingston2TB":
-                return new Kingston2TB();
+                ssd = new Kingston2TB();
+                ssd.crearSSD();
+                return ssd;
             case "Kingston4TB":
-                return new Kingston4TB();
+                ssd = new Kingston4TB();
+                ssd.crearSSD();
+                return ssd;
             default:
                 return null;
         }

@@ -6,7 +6,7 @@ package modelo.fabricaabstracta;
  * 
  * Esta es una clase 'FabricaConcreta' del patron AbstractFactory.
  */
-public class FabricaPlacaBase extends FabricaAbstractaComponente{
+public class FabricaHDD extends FabricaAbstractaComponente{
     /**
      * Devuelve una instancia concreta de un HDD en funcion del tipo pasado como parametro.
      * 
@@ -15,15 +15,24 @@ public class FabricaPlacaBase extends FabricaAbstractaComponente{
      */
     @Override
     public Object getComponente(String tipo) {
+        HDD hdd;
         switch (tipo) {
             case "WesternDigitalBlue500GB":
-                return new WesternDigitalBlue500GB();
+                hdd = new WesternDigitalBlue500GB();
+                hdd.crearHDD();
+                return hdd;
             case "WesternDigitalBlue1TB":
-                return new WesternDigitalBlue1TB();
+                hdd = new WesternDigitalBlue1TB();
+                hdd.crearHDD();
+                return hdd;
             case "SeagateBarracuda1TB":
-                return new SeagateBarracuda1TB();
+                hdd = new SeagateBarracuda1TB();
+                hdd.crearHDD();
+                return hdd;
             case "SeagateBarracuda2TB":
-                return new SeagateBarracuda2TB();
+                hdd = new SeagateBarracuda2TB();
+                hdd.crearHDD();
+                return hdd;
             default:
                 return null;
         }

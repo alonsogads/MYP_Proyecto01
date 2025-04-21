@@ -15,15 +15,24 @@ public class FabricaPlacaBase extends FabricaAbstractaComponente{
      */
     @Override
     public Object getComponente(String tipo) {
+        PlacaBase placaBase;
         switch (tipo) {
             case "AsusROGMaximusZ790":
-                return new AsusROGMaximusZ790();
+                placaBase = new AsusROGMaximusZ790();
+                placaBase.crearPlacaBase();
+                return placaBase;
             case "AsusTUFGamingB760":
-                return new AsusTUFGamingB760();
+                placaBase = new AsusTUFGamingB760();
+                placaBase.crearPlacaBase();
+                return placaBase;
             case "MSIMEGGodlike":
-                return new MSIMEGGodlike();
+                placaBase = new MSIMEGGodlike();
+                placaBase.crearPlacaBase();
+                return placaBase;();
             case "MSIMAGB760":
-                return new MSIMAGB760();
+                placaBase = new MSIMAGB760();
+                placaBase.crearPlacaBase();
+                return placaBase;
             default:
                 return null;
         }

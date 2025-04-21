@@ -15,19 +15,32 @@ public class FabricaRAM extends FabricaAbstractaComponente{
      */
     @Override
     public Object getComponente(String tipo) {
+        RAM ram;
         switch (tipo) {
             case "Adata8GB":
-                return new Adata8GB();
+                ram = new Adata8GB();
+                ram.crearRAM();
+                return ram;
             case "Adata16GB":
-                return new Adata16GB();
+                ram = new Adata16GB();
+                ram.crearRAM();
+                return ram;
             case "Adata32GB":
-                return new Adata32GB();
+                ram = new Adata32GB();
+                ram.crearRAM();
+                return ram;
             case "Kingston8GB":
-                return new Kingston8GB();
+                ram = new Kingston8GB();
+                ram.crearRAM();
+                return ram;
             case "Kingston16GB":
-                return new Kingston16GB();
+                ram = new Kingston16GB();
+                ram.crearRAM();
+                return ram;
             case "Kingston32GB":
-                return new Kingston32GB();
+                ram = new Kingston32GB();
+                ram.crearRAM();
+                return ram;
             default:
                 return null;
         }
