@@ -1,6 +1,7 @@
 package vista;
 
 import modelo.*;
+import controlador.ControladorPC;
 import java.util.Scanner;
 
 /**
@@ -25,13 +26,13 @@ public class VistaGeneral {
             System.out.println("2. Sucursal Chihuahua");
             System.out.println("3. Sucursal Yucatan");
             System.out.println("4. Salir");
-            System.out.print("Selecciona una sucursal: ");
+            System.out.print("\n\tEleccion: ");
 
             int opcion;
             try {
                 opcion = Integer.parseInt(scanner.nextLine());
             } catch (NumberFormatException e) {
-                System.out.println("Error: Ingrese un numero valido.");
+                System.out.println("Opcion invalida. Intenta de nuevo.");
                 continue;
             }
 
@@ -61,13 +62,14 @@ public class VistaGeneral {
 
     /**
      * Inicia la vista interactiva de la sucursal seleccionada por el usuario.
-     * Crea una instancia de VistaSucursal y lanza la interaccion.
+     * Crea una instancia de VistaSucursal y lanza el controlador correspondiente.
      * 
      * @param sucursal Instancia concreta de la sucursal seleccionada.
      */
     public void iniciarVistaSucursal(Sucursal sucursal) {
         VistaSucursal vista = new VistaSucursal(sucursal);
-        vista.interactuarConCliente();
+        ControladorPC controlador = new ControladorPC(vista);
+        controlador.iniciar();
     }
 
     /**
