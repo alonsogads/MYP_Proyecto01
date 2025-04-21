@@ -67,7 +67,7 @@ public abstract class RAM {
      */
     @Override
     public String toString() {
-        return tipoComponente + ": " + nombre + ". Marca " + marca + ". " + capacidad + " capacidad."
+        return tipoComponente + ": " + nombre + ". Marca " + marca + ". Capacidad " + capacidad + " GB."
                 + "\n\t*** Precio: $" + precio + " MXN";
     }
 

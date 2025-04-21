@@ -67,7 +67,7 @@ public abstract class PlacaBase {
      */
     @Override
     public String toString() {
-        return tipoComponente + ": " + nombre + ". Marca " + marca + ". " + chipset + " chipset."
+        return tipoComponente + ": " + nombre + ". Marca " + marca + ". Chipset " + chipset + " ."
                 + "\n\t*** Precio: $" + precio + " MXN";
     }
 

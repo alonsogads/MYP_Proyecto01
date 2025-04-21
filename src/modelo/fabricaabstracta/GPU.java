@@ -67,7 +67,7 @@ public abstract class GPU {
      */
     @Override
     public String toString() {
-        return tipoComponente + ": " + nombre + ". Marca " + marca + ". " + tipoMemoriaGPU + " el tipo de memoria de la GPU."
+        return tipoComponente + ": " + nombre + ". Marca " + marca + ". Tipo de memoria " + tipoMemoriaGPU + "."
                 + "\n\t*** Precio: $" + precio + " MXN";
     }
 

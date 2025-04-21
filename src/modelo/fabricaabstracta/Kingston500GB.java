@@ -15,7 +15,7 @@ public class Kingston500GB extends SSD {
         nombre = "Kingston 500GB";
         marca = "Kingston";
         precio = 1000.0f;
-        tipoComponente = "Disco Duro";
+        tipoComponente = "Disco de estado solido";
         capacidadAlmacenamiento = "500GB";
         tipoAlmacenamiento = "SSD";
     }

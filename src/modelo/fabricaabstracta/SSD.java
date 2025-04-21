@@ -76,7 +76,7 @@ public abstract class SSD {
      */
     @Override
     public String toString() {
-        return tipoComponente + ": " + nombre + ". Marca " + marca + ". " + capacidadAlmacenamiento + " capacidad de almacenamiento" + tipoAlmacenamiento + " tipo del almacenamiento."
+        return tipoComponente + ": " + nombre + ". Marca " + marca + ". Capacidad de almacenamiento " + capacidadAlmacenamiento + ". Tipo de almacenamiento " + tipoAlmacenamiento + "."
                 + "\n\t*** Precio: $" + precio + " MXN";
     }
 

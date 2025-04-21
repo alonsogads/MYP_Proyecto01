@@ -184,7 +184,7 @@ public class PCBase implements PC {
      */
     @Override
     public String toString() {
-        StringBuilder detalles = new StringBuilder("========== Descripcion de la PC ==========");
+        StringBuilder detalles = new StringBuilder("\t----- Descripcion del pedido -----");
 
         try { // Intenta acceder al CPU, si no encuentra uno, lanza la excepcion.
             detalles.append("\n\n\t>> ").append(this.getCPU().toString());
@@ -213,8 +213,6 @@ public class PCBase implements PC {
         detalles.append("\n\n\t>> ").append(this.getFuente().toString());
         detalles.append("\n\n\t>> ").append(this.getGPU().toString());
         detalles.append("\n\n\t>> ").append(this.getGabinete().toString());
-
-        detalles.append("\n\n\t---------- *** Costo PC: $").append(this.obtenerCosto()).append(" MXN.");
 
         return detalles.toString();
     }

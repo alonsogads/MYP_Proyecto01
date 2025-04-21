@@ -4,9 +4,6 @@ import vista.VistaSucursal;
 import modelo.*;
 import modelo.singleton.CentralCDMX;
 import modelo.decorador.PC;
-
-import java.util.List;
-import java.util.Map;
 import java.lang.Thread;
 
 /**
@@ -56,8 +53,16 @@ public class ControladorPC {
         // Procesar el pedido y generar la PC
         PC pc = procesarPedido(pedido);
 
-        // Mostrar resumen final
-        imprimirTicket(pc);
+        // Bloque que simula un tiempo de espera.
+        try {
+            Thread.sleep(1500);
+        } catch (InterruptedException e) {            
+            e.printStackTrace();
+        }
+
+        // Imprimir ticket
+        String ticket = this.obtenerTicket(pc,pedido);
+        vista.mostrarMensaje(ticket);
     }
 
     /**
@@ -72,7 +77,7 @@ public class ControladorPC {
 
         // Bloque que simula un tiempo de espera.
         try {
-            Thread.sleep(2*1000);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {            
             e.printStackTrace();
         }
@@ -83,13 +88,19 @@ public class ControladorPC {
     }
 
     /**
-     * Imprime el ticket detallado de la PC ensamblada.
+     * Obtiene el ticket detallado del pedido de la PC.
      * Incluye todos los componentes seleccionados, software agregado y costo total.
      * 
-     * @param pc Objeto PC ensamblado.
+     * @param pc El objeto PC el cual se le genera el ticket.
+     * @param pedido El pedido original del cliente.
+     * @return Cadena que representa el ticket descriptivo del pedido del usuario.
      */
-    public void imprimirTicket(PC pc) {
-        vista.mostrarMensaje("\n========== Ticket de Compra ==========");
-        vista.mostrarMensaje(pc.toString());
+    public String obtenerTicket(PC pc, Pedido pedido) {
+        StringBuilder ticket = new StringBuilder("\n========== Ticket de Compra ==========\n");
+        ticket.append("\n\tPedido #");
+        ticket.append("\n\tSucursal de origen: " + pedido.getSucursal().getNombre() + "\n\n");
+        ticket.append(pc.toString());
+        ticket.append("\n\n\t***** Costo total: $" + pc.obtenerCosto() + " MXN.");
+        return ticket.toString();
     }
 }
