@@ -8,7 +8,7 @@ package modelo.fabricaabstracta;
  * 
  * Esta clase abstracta (en lugar de una interfaz) es una de las plantillas 'ProductoConcreto' del patron AbstractFactory.
  */
-public abstract class GPU {
+public abstract class Gabinete {
     
     /* Por convencion de AbstractFactory, no se cuenta con un metodo constructor explicito, por lo que
     inicializarremos los atributos con valores predeterminados para poder crear de manera segura

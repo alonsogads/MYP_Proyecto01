@@ -6,7 +6,7 @@ package modelo.fabricaabstracta;
  * 
  * Esta es una de las clases 'ProductoConcreto' del patron AbstractFactory.
  */
-public class MSIMAGB760 extends PlacaBase {
+public class MSIMEGGodlike extends PlacaBase {
     /**
      * Establece los valores propios de la Placa Base tipo MSIMEGGodlike.
      */

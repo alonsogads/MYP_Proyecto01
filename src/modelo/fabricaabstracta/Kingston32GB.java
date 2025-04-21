@@ -6,7 +6,7 @@ package modelo.fabricaabstracta;
  * 
  * Esta es una de las clases 'ProductoConcreto' del patron AbstractFactory.
  */
-public class Kingston8GB extends RAM {
+public class Kingston32GB extends RAM {
     /**
      * Establece los valores propios de la RAM tipo Kingston32GB.
      */

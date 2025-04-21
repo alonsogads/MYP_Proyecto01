@@ -6,7 +6,7 @@ package modelo.fabricaabstracta;
  * 
  * Esta es una de las clases 'ProductoConcreto' del patron AbstractFactory.
  */
-public class Kingston500GB extends SSD {
+public class Kingston2TB extends SSD {
     /**
      * Establece los valores propios de la SSD tipo Kingston2TB.
      */

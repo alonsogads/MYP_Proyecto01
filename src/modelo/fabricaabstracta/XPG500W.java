@@ -6,7 +6,7 @@ package modelo.fabricaabstracta;
  * 
  * Esta es una de las clases 'ProductoConcreto' del patron AbstractFactory.
  */
-public class XPG800W extends FuenteAlimentacion {
+public class XPG500W extends FuenteAlimentacion {
     /**
      * Establece los valores propios de la Fuente de Alimentacion tipo XPG500W.
      */
