@@ -8,7 +8,7 @@ package modelo.adaptador;
  * 
  * Es una clase 'Adaptado' del patron Adapter.
  */
-public class AMDRyzen9_7950X implements CPUAMD {
+public class AMDRyzen9_7950X3D implements CPUAMD {
 
     /**
      * Devuelve el nombre del CPU AMD concreto.
