@@ -16,7 +16,7 @@ public class SeagateBarracuda1TB extends HDD {
         marca = "Seagate";
         precio = 1000.0f;
         tipoComponente = "Disco Duro";
-        capacidadAlmacenamiento = "1TB"
-        tipoAlmacenamiento = "HDD"
+        capacidadAlmacenamiento = "1TB";
+        tipoAlmacenamiento = "HDD";
     }
 }

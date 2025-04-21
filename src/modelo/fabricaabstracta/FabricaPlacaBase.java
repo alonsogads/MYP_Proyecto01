@@ -28,7 +28,7 @@ public class FabricaPlacaBase extends FabricaAbstractaComponente{
             case "MSIMEGGodlike":
                 placaBase = new MSIMEGGodlike();
                 placaBase.crearPlacaBase();
-                return placaBase;();
+                return placaBase;
             case "MSIMAGB760":
                 placaBase = new MSIMAGB760();
                 placaBase.crearPlacaBase();

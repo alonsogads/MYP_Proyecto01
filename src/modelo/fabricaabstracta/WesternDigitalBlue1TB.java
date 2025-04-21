@@ -16,7 +16,7 @@ public class WesternDigitalBlue1TB extends HDD {
         marca = "WD Blue";
         precio = 1000.0f;
         tipoComponente = "Disco Duro";
-        capacidadAlmacenamiento = "1TB"
-        tipoAlmacenamiento = "HDD"
+        capacidadAlmacenamiento = "1TB";
+        tipoAlmacenamiento = "HDD";
     }
 }

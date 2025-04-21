@@ -32,11 +32,11 @@ public class FabricaGPU extends FabricaAbstractaComponente{
             case "NVIDIA_RTX4080":
                 gpu = new NVIDIA_RTX4080();
                 gpu.crearGPU();
-                return gpu;;
+                return gpu;
             case "NVIDIA_RTX4090":
                 gpu = new NVIDIA_RTX4090();
                 gpu.crearGPU();
-                return gpu;();
+                return gpu;
             default:
                 return null;
         }

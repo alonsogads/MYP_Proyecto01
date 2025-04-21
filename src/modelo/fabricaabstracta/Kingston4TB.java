@@ -16,7 +16,7 @@ public class Kingston4TB extends SSD {
         marca = "Kingston";
         precio = 7000.0f;
         tipoComponente = "Disco Duro";
-        capacidadAlmacenamiento = "4TB"
-        tipoAlmacenamiento = "SSD"
+        capacidadAlmacenamiento = "4TB";
+        tipoAlmacenamiento = "SSD";
     }
 }

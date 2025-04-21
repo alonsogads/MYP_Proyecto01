@@ -16,7 +16,7 @@ public class WesternDigitalBlue500GB extends HDD {
         marca = "WD Blue";
         precio = 550.0f;
         tipoComponente = "Disco Duro";
-        capacidadAlmacenamiento = "500GB"
-        tipoAlmacenamiento = "HDD"
+        capacidadAlmacenamiento = "500GB";
+        tipoAlmacenamiento = "HDD";
     }
 }
