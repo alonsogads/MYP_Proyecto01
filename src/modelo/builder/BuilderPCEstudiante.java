@@ -1,6 +1,8 @@
 package modelo.builder;
 
 import modelo.fabricaabstracta.DirectorFabrica;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -16,8 +18,10 @@ public class BuilderPCEstudiante extends BuilderPC {
      */
     @Override
     public void agregarCPU() {
-        Object cpu = DirectorFabrica.nuevoComponente("CPU", "IntelCorei3_13100");
-        componentes.put("CPU", List.of(cpu));
+        Object cpu = DirectorFabrica.nuevoComponente("CPU", "IntelCorei5_13600K");
+        List<Object> lista = new ArrayList<>();
+        lista.add(cpu);
+        componentes.put("CPU",lista);
     }
 
     /**
@@ -26,7 +30,9 @@ public class BuilderPCEstudiante extends BuilderPC {
     @Override
     public void agregarRAM() {
         Object ram = DirectorFabrica.nuevoComponente("RAM", "Adata16GB");
-        componentes.put("RAM", List.of(ram));
+        List<Object> lista = new ArrayList<>();
+        lista.add(ram);
+        componentes.put("RAM",lista);
     }
 
     /**
@@ -35,7 +41,9 @@ public class BuilderPCEstudiante extends BuilderPC {
     @Override
     public void agregarPlacaBase() {
         Object placa = DirectorFabrica.nuevoComponente("PlacaBase", "MSIMEGGodlike");
-        componentes.put("PlacaBase", List.of(placa));
+        List<Object> lista = new ArrayList<>();
+        lista.add(placa);
+        componentes.put("PlacaBase",lista);
     }
 
     /**
@@ -44,7 +52,9 @@ public class BuilderPCEstudiante extends BuilderPC {
     @Override
     public void agregarHDD() {
         Object hdd = DirectorFabrica.nuevoComponente("HDD", "WesternDigitalBlue500GB");
-        componentes.put("HDD", List.of(hdd));
+        List<Object> lista = new ArrayList<>();
+        lista.add(hdd);
+        componentes.put("HDD",lista);
     }
 
     /**
@@ -53,7 +63,9 @@ public class BuilderPCEstudiante extends BuilderPC {
     @Override
     public void agregarSSD() {
         Object ssd = DirectorFabrica.nuevoComponente("SSD", "Kingston500GB");
-        componentes.put("SSD", List.of(ssd));
+        List<Object> lista = new ArrayList<>();
+        lista.add(ssd);
+        componentes.put("SSD",lista);
     }
 
     /**
@@ -62,7 +74,9 @@ public class BuilderPCEstudiante extends BuilderPC {
     @Override
     public void agregarFuente() {
         Object fuente = DirectorFabrica.nuevoComponente("Fuente", "XPG500W");
-        componentes.put("Fuente", List.of(fuente));
+        List<Object> lista = new ArrayList<>();
+        lista.add(fuente);
+        componentes.put("Fuente",lista);
     }
 
     /**
@@ -71,7 +85,9 @@ public class BuilderPCEstudiante extends BuilderPC {
     @Override
     public void agregarGPU() {
         Object gpu = DirectorFabrica.nuevoComponente("GPU", "NVIDIA_GTX1660");
-        componentes.put("GPU", List.of(gpu));
+        List<Object> lista = new ArrayList<>();
+        lista.add(gpu);
+        componentes.put("GPU",lista);
     }
 
     /**
@@ -80,6 +96,8 @@ public class BuilderPCEstudiante extends BuilderPC {
     @Override
     public void agregarGabinete() {
         Object gabinete = DirectorFabrica.nuevoComponente("Gabinete", "YeyianLancerATX");
-        componentes.put("Gabinete", List.of(gabinete));
+        List<Object> lista = new ArrayList<>();
+        lista.add(gabinete);
+        componentes.put("Gabinete",lista);
     }
 }

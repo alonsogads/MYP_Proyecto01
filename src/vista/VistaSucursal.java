@@ -563,11 +563,11 @@ public class VistaSucursal {
     }
 
     /**
-     * Metodo que devuelve el nombre de la sucursal que esta haciendo el pedido.
-     * @return El nombre de la sucursal concreta.
+     * Metodo que devuelve la sucursal que esta haciendo el pedido.
+     * @return La sucursal concreta que 
      */
-    public String getSucursal(){
-        return this.sucursal.getNombre();
+    public Sucursal getSucursal(){
+        return this.sucursal;
     }
 
     /**

@@ -2,12 +2,11 @@ package modelo.singleton;
 
 import modelo.builder.*;
 import modelo.decorador.*;
-import modelo.fabricaabstracta.*;
 import modelo.adaptador.*;
+import modelo.fabricaabstracta.*;
 import modelo.Pedido;
 import modelo.ComponenteIncompatibleException;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Clase que representa la sede central CDMX de MonosChinos MX, encargada de la linea de ensamble y distribucion.
@@ -39,7 +38,7 @@ public class CentralCDMX {
      */
     public static CentralCDMX getInstancia() {
         if (instancia == null) {
-            synchronized(instancia.class){
+            synchronized (CentralCDMX.class) {
                 if(instancia == null){
                     instancia = new CentralCDMX();
                 }
@@ -93,7 +92,7 @@ public class CentralCDMX {
         PCBase pcBase = (PCBase) pc;
 
         try { // Intenta acceder al CPU, si no encuentra uno, lanza la excepcion.
-            pcBase.getCPU();
+            CPU cpu = pcBase.getCPU();
         } catch (ComponenteIncompatibleException e) {
             System.out.println("[Alerta de compatibilidad] " + e.getMessage());
 
@@ -115,10 +114,12 @@ public class CentralCDMX {
                     cpuAMD = new AMDRyzen9_7950X3D();
                     break;
                 default:
+                    cpuAMD = null;
                     break;
             }
 
             CPUAMD_Adaptador cpuAdaptado = new CPUAMD_Adaptador(cpuAMD);
+            cpuAdaptado.crearCPU();
             pcBase.setCPU(cpuAdaptado);
         }
     }

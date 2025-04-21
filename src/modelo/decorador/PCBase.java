@@ -39,6 +39,9 @@ public class PCBase implements PC {
         if(listaCPU.contains(null)){
             throw new ComponenteIncompatibleException("Modelo de CPU incompatible. Se procede a realizar una adaptacion manual.");
         }
+        if (listaCPU == null || listaCPU.isEmpty()) {
+            throw new ComponenteIncompatibleException("Modelo de CPU incompatible. Se procede a realizar una adaptacion manual.");
+        }
 
         return (CPU) componentes.get("CPU").get(0);
     }
@@ -133,7 +136,9 @@ public class PCBase implements PC {
      * @param nuevoCPU Un {@code CPU} concreto que se agrega a la lista de modelos del mismo componente.
      */
     public void setCPU(CPU nuevoCPU) {
-        componentes.put("CPU", List.of((Object) nuevoCPU));
+        List<Object> lista = new ArrayList<>();
+        lista.add(nuevoCPU);
+        componentes.put("CPU",lista);
     }
     
     /**
@@ -143,8 +148,16 @@ public class PCBase implements PC {
      */
     @Override
     public float obtenerCosto() {
-        float costo = this.getCPU().getPrecio() +
-                      this.getPlacaBase().getPrecio() +
+
+        float costo = 0.0f;
+
+        try { // Intenta acceder al CPU, si no encuentra uno, lanza la excepcion.
+            costo += this.getCPU().getPrecio();
+        } catch (ComponenteIncompatibleException e) {
+            costo += 0;
+        }
+
+        costo += this.getPlacaBase().getPrecio() +
                       this.getFuente().getPrecio() +
                       this.getGPU().getPrecio() +
                       this.getGabinete().getPrecio();
@@ -173,7 +186,12 @@ public class PCBase implements PC {
     public String toString() {
         StringBuilder detalles = new StringBuilder("========== Descripcion de la PC ==========");
 
-        detalles.append("\n\n\t>> ").append(this.getCPU().toString());
+        try { // Intenta acceder al CPU, si no encuentra uno, lanza la excepcion.
+            detalles.append("\n\n\t>> ").append(this.getCPU().toString());
+        } catch (ComponenteIncompatibleException e) {
+            detalles.append("\n");
+        }
+
         
         detalles.append("\n");
         for(RAM ram : this.getRAM()){
@@ -182,12 +200,12 @@ public class PCBase implements PC {
 
         detalles.append("\n\n\t>> ").append(this.getPlacaBase().toString());
 
-        detalles.append("\n")
+        detalles.append("\n");
         for(HDD hdd : this.getHDD()){
             detalles.append("\n\t>> ").append(hdd.toString());
         }
 
-        detalles.append("\n")
+        detalles.append("\n");
         for(SSD ssd : this.getSSD()){
             detalles.append("\n\t>> ").append(ssd.toString());
         }

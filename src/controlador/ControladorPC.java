@@ -89,7 +89,7 @@ public class ControladorPC {
      * @param pc Objeto PC ensamblado.
      */
     public void imprimirTicket(PC pc) {
-        vista.mostrarMensaje("\n========== Ticket de Compra ==========\n");
+        vista.mostrarMensaje("\n========== Ticket de Compra ==========");
         vista.mostrarMensaje(pc.toString());
     }
 }

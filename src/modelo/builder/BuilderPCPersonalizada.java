@@ -14,7 +14,8 @@ import java.util.ArrayList;
 public class BuilderPCPersonalizada extends BuilderPC {
 
     // Mapa con las elecciones elegidas por el usuario (en String) para enamblar su PC personalizada.
-    // Los metodos de esta clase, convertiran las cadenas en intancias de los componentes correspondientes.
+    // Los metodos de esta clase, convertiran las cadenas en objetos de los componentes correspondientes.
+    // y se guardaran en el mapa de componentes.
     private Map<String, List<String>> elecciones;
     
     /**
@@ -46,7 +47,8 @@ public class BuilderPCPersonalizada extends BuilderPC {
             Object nuevoCPU = DirectorFabrica.nuevoComponente("CPU", eleccionModelo);
 
             // Guardamos el componente en una lista.
-            List<Object> listaComponentes = List.of(nuevoCPU);
+            List<Object> listaComponentes = new ArrayList<>();
+            listaComponentes.add(nuevoCPU);
 
             // Actualizamos nuestro mapa de componentes.
             componentes.put("CPU",listaComponentes);
@@ -104,7 +106,8 @@ public class BuilderPCPersonalizada extends BuilderPC {
             Object nuevaPlacaBase = DirectorFabrica.nuevoComponente("PlacaBase", eleccionModelo);
 
             // Guardamos el componente en una lista.
-            List<Object> listaComponentes = List.of(nuevaPlacaBase);
+            List<Object> listaComponentes = new ArrayList<>();
+            listaComponentes.add(nuevaPlacaBase);
 
             // Actualizamos nuestro mapa de componentes.
             componentes.put("PlacaBase",listaComponentes);
@@ -193,7 +196,8 @@ public class BuilderPCPersonalizada extends BuilderPC {
             Object nuevaFuente = DirectorFabrica.nuevoComponente("Fuente", eleccionModelo);
 
             // Guardamos el componente en una lista.
-            List<Object> listaComponentes = List.of(nuevaFuente);
+            List<Object> listaComponentes = new ArrayList<>();
+            listaComponentes.add(nuevaFuente);
 
             // Actualizamos nuestro mapa de componentes.
             componentes.put("Fuente",listaComponentes);
@@ -220,7 +224,8 @@ public class BuilderPCPersonalizada extends BuilderPC {
             Object nuevaGPU = DirectorFabrica.nuevoComponente("GPU", eleccionModelo);
 
             // Guardamos el componente en una lista.
-            List<Object> listaComponentes = List.of(nuevaGPU);
+            List<Object> listaComponentes = new ArrayList<>();
+            listaComponentes.add(nuevaGPU);
 
             // Actualizamos nuestro mapa de componentes.
             componentes.put("GPU",listaComponentes);
@@ -247,7 +252,8 @@ public class BuilderPCPersonalizada extends BuilderPC {
             Object nuevoGabinete = DirectorFabrica.nuevoComponente("Gabinete", eleccionModelo);
 
             // Guardamos el componente en una lista.
-            List<Object> listaComponentes = List.of(nuevoGabinete);
+            List<Object> listaComponentes = new ArrayList<>();
+            listaComponentes.add(nuevoGabinete);
 
             // Actualizamos nuestro mapa de componentes.
             componentes.put("Gabinete",listaComponentes);

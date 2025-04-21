@@ -18,8 +18,10 @@ public class BuilderPCGamer extends BuilderPC {
      */
     @Override
     public void agregarCPU() {
-        Object cpu = DirectorFabrica.nuevoComponente("CPU", "AMDRyzen7_7700X");
-        componentes.put("CPU", List.of(cpu));
+        Object cpu = DirectorFabrica.nuevoComponente("CPU", "IntelCorei7_13700K");
+        List<Object> lista = new ArrayList<>();
+        lista.add(cpu);
+        componentes.put("CPU",lista);
     }
 
     /**
@@ -39,7 +41,9 @@ public class BuilderPCGamer extends BuilderPC {
     @Override
     public void agregarPlacaBase() {
         Object placa = DirectorFabrica.nuevoComponente("PlacaBase", "MSIMAGB760");
-        componentes.put("PlacaBase", List.of(placa));
+        List<Object> lista = new ArrayList<>();
+        lista.add(placa);
+        componentes.put("PlacaBase",lista);
     }
 
     /**
@@ -48,7 +52,9 @@ public class BuilderPCGamer extends BuilderPC {
     @Override
     public void agregarHDD() {
         Object hdd = DirectorFabrica.nuevoComponente("HDD", "SeagateBarracuda2TB");
-        componentes.put("HDD", List.of(hdd));
+        List<Object> lista = new ArrayList<>();
+        lista.add(hdd);
+        componentes.put("HDD",lista);
     }
 
     /**
@@ -57,7 +63,9 @@ public class BuilderPCGamer extends BuilderPC {
     @Override
     public void agregarSSD() {
         Object ssd = DirectorFabrica.nuevoComponente("SSD", "Kingston1TB");
-        componentes.put("SSD", List.of(ssd));
+        List<Object> lista = new ArrayList<>();
+        lista.add(ssd);
+        componentes.put("SSD",lista);
     }
 
     /**
@@ -66,7 +74,9 @@ public class BuilderPCGamer extends BuilderPC {
     @Override
     public void agregarFuente() {
         Object fuente = DirectorFabrica.nuevoComponente("Fuente", "EVGA800W");
-        componentes.put("Fuente", List.of(fuente));
+        List<Object> lista = new ArrayList<>();
+        lista.add(fuente);
+        componentes.put("Fuente",lista);
     }
 
     /**
@@ -75,7 +85,9 @@ public class BuilderPCGamer extends BuilderPC {
     @Override
     public void agregarGPU() {
         Object gpu = DirectorFabrica.nuevoComponente("GPU", "NVIDIA_RTX4070");
-        componentes.put("GPU", List.of(gpu));
+        List<Object> lista = new ArrayList<>();
+        lista.add(gpu);
+        componentes.put("GPU",lista);
     }
 
     /**
@@ -84,6 +96,8 @@ public class BuilderPCGamer extends BuilderPC {
     @Override
     public void agregarGabinete() {
         Object gabinete = DirectorFabrica.nuevoComponente("Gabinete", "NZXTH6FlowATX");
-        componentes.put("Gabinete", List.of(gabinete));
+        List<Object> lista = new ArrayList<>();
+        lista.add(gabinete);
+        componentes.put("Gabinete",lista);
     }
 }

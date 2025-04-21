@@ -49,7 +49,7 @@ public class CPUAMD_Adaptador extends CPU {
     @Override
     public String toString() {
         return tipoComponente + " (Adaptado): " + nombre + ". Marca " + marca + ". " + cantidadNucleos 
-                + " nucleos." + "\n*** Precio: $" + precio + " MXN";
+                + " nucleos." + "\n\t*** Precio: $" + precio + " MXN";
     }
 
 }
