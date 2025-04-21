@@ -1,6 +1,7 @@
 package vista;
 
 import modelo.*;
+import controlador.ControladorPC;
 import java.util.Scanner;
 
 /**
@@ -61,13 +62,14 @@ public class VistaGeneral {
 
     /**
      * Inicia la vista interactiva de la sucursal seleccionada por el usuario.
-     * Crea una instancia de VistaSucursal y lanza la interaccion.
+     * Crea una instancia de VistaSucursal y lanza el controlador correspondiente.
      * 
      * @param sucursal Instancia concreta de la sucursal seleccionada.
      */
     public void iniciarVistaSucursal(Sucursal sucursal) {
         VistaSucursal vista = new VistaSucursal(sucursal);
-        vista.interactuarConCliente();
+        ControladorPC controlador = new ControladorPC(vista);
+        controlador.iniciar();
     }
 
     /**

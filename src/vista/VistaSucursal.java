@@ -39,7 +39,7 @@ public class VistaSucursal {
             System.out.println("Selecciona el tipo de PC:");
             System.out.println("1. Personalizada");
             System.out.println("2. Prearmada");
-            System.out.print("Selecciona una opcion: ");
+            System.out.print("\n\tEleccion: ");
             
             int opcion;
             try {
@@ -560,6 +560,14 @@ public class VistaSucursal {
                 System.out.println("Opcion invalida. Intenta de nuevo.");
             }
         }
+    }
+
+    /**
+     * Metodo que devuelve el nombre de la sucursal que esta haciendo el pedido.
+     * @return El nombre de la sucursal concreta.
+     */
+    public String getSucursal(){
+        return this.sucursal.getNombre();
     }
 
     /**
