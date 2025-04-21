@@ -1,7 +1,5 @@
 package modelo.fabricaabstracta;
 
-import modelo.ComponenteIncompatibleException;
-
 /**
  * Clase directora que centraliza la creacion de componentes individuales
  * usando las distintas fabricas concretas de AbstractFactory.
