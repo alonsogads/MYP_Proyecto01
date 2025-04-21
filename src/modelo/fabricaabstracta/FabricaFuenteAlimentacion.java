@@ -15,7 +15,7 @@ public class FabricaFuenteAlimentacion extends FabricaAbstractaComponente{
      */
     @Override
     public Object getComponente(String tipo) {
-        FabricaFuenteAlimentacion fuenteAlimentacion;
+        FuenteAlimentacion fuenteAlimentacion;
 
         switch (tipo) {
             case "EVGA800W":

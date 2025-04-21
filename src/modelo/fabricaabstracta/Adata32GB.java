@@ -6,7 +6,7 @@ package modelo.fabricaabstracta;
  * 
  * Esta es una de las clases 'ProductoConcreto' del patron AbstractFactory.
  */
-public class Adata8GB extends RAM {
+public class Adata32GB extends RAM {
     /**
      * Establece los valores propios de la RAM tipo Adata32GB.
      */

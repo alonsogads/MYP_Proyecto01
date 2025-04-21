@@ -6,7 +6,7 @@ package modelo.fabricaabstracta;
  * 
  * Esta es una de las clases 'ProductoConcreto' del patron AbstractFactory.
  */
-public class Cosair1500W extends FuenteAlimentacion {
+public class Corsair1500W extends FuenteAlimentacion {
     /**
      * Establece los valores propios de la Fuente de Alimentacion tipo Cosair1500W.
      */

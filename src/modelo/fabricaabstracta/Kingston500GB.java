@@ -11,7 +11,7 @@ public class Kingston500GB extends SSD {
      * Establece los valores propios de la SSD tipo Kingston500GB.
      */
     @Override
-    public void crearHDD() {
+    public void crearSSD() {
         nombre = "Kingston 500GB";
         marca = "Kingston";
         precio = 1000.0f;

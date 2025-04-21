@@ -1,6 +1,6 @@
 package modelo.fabricaabstracta;
 
-import modelo.ComponenteIncompatibleException;
+// import modelo.ComponenteIncompatibleException;
 
 /**
  * Clase directora que centraliza la creacion de componentes individuales
