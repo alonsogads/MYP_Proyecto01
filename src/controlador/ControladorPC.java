@@ -4,6 +4,12 @@ import vista.VistaSucursal;
 import modelo.*;
 import modelo.singleton.CentralCDMX;
 import modelo.decorador.PC;
+
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.lang.Thread;
 
 /**
@@ -63,6 +69,9 @@ public class ControladorPC {
         // Imprimir ticket
         String ticket = this.obtenerTicket(pc,pedido);
         vista.mostrarMensaje(ticket);
+
+        // Guadamos el pedido en el archivo
+        this.guardarPedidoEnArchivo(ticket);
     }
 
     /**
@@ -96,11 +105,34 @@ public class ControladorPC {
      * @return Cadena que representa el ticket descriptivo del pedido del usuario.
      */
     public String obtenerTicket(PC pc, Pedido pedido) {
+
+        String clave = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
+
         StringBuilder ticket = new StringBuilder("\n========== Ticket de Compra ==========\n");
-        ticket.append("\n\tPedido #");
+        ticket.append("\n\tPedido: " + clave);
         ticket.append("\n\tSucursal de origen: " + pedido.getSucursal().getNombre() + "\n\n");
         ticket.append(pc.toString());
         ticket.append("\n\n\t***** Costo total: $" + pc.obtenerCosto() + " MXN.");
         return ticket.toString();
     }
+
+    /**
+    * Guarda el contenido actual en un archivo de texto.
+    * @param contenido La cadena a guardar en el archivo de texto.
+    */
+    private void guardarPedidoEnArchivo(String contenido) {
+
+        try (FileWriter archivo = new FileWriter("pedidos.txt", true); // Permite agregar pedidos al final del archivo, no lo sobreescribe
+        PrintWriter escritor = new PrintWriter(archivo)) {
+        
+            // Escribimos el contenido
+            escritor.write("\n" + contenido);
+            escritor.close();
+
+        } catch (IOException e) {
+            vista.mostrarMensaje("Ocurrio un error al guardar el ticket en archivo.");
+            e.printStackTrace();
+        }
+    }
+
 }

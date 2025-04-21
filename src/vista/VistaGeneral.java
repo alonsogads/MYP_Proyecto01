@@ -2,6 +2,11 @@ package vista;
 
 import modelo.*;
 import controlador.ControladorPC;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -21,10 +26,13 @@ public class VistaGeneral {
      */
     public void mostrarMenuGeneral() {
         while (true) {
+            this.limpiarPantalla();
+
             System.out.println("\n========== MonosChinos MX: Sucursales ==========");
-            System.out.println("1. Sucursal Jalisco");
-            System.out.println("2. Sucursal Chihuahua");
-            System.out.println("3. Sucursal Yucatan");
+            System.out.println("0. Central CDMX (consultar pedidos)");
+            System.out.println("1. Sucursal Jalisco (realizar pedidos)");
+            System.out.println("2. Sucursal Chihuahua (realizar pedidos)");
+            System.out.println("3. Sucursal Yucatan (realizar pedidos)");
             System.out.println("4. Salir");
             System.out.print("\n\tEleccion: ");
 
@@ -39,6 +47,9 @@ public class VistaGeneral {
             Sucursal sucursal;
 
             switch (opcion) {
+                case 0:
+                    this.consultarPedidos();
+                    break;
                 case 1:
                     sucursal = new SucursalJalisco();
                     this.iniciarVistaSucursal(sucursal);
@@ -57,6 +68,9 @@ public class VistaGeneral {
                 default:
                     System.out.println("Opcion no valida. Intenta nuevamente.");
             }
+
+            System.out.println("Presione enter para regresar al menu...");
+            scanner.nextLine(); // Espera que el usuario presione Enter
         }
     }
 
@@ -73,11 +87,46 @@ public class VistaGeneral {
     }
 
     /**
-     * Permite consultar pedidos anteriores o estadisticas generales del sistema.
-     * Este metodo puede ser implementado si se desea extender la funcionalidad.
+     * Muestra el contenido del archivo de pedidos guardados.
+     * Si el archivo no existe, muestra un mensaje informativo.
      */
     public void consultarPedidos() {
-        System.out.println("[Funcion en desarrollo] Consulta de pedidos no disponible por el momento.");
+        this.limpiarPantalla();
+
+        File archivo = new File("pedidos.txt");
+
+        if (!archivo.exists() || archivo.length() == 0) {
+            System.out.println("\n[Consulta de Pedidos] No hay pedidos guardados aun.");
+            return;
+        }
+
+        System.out.println("\n********** Pedidos de Central CDMX **********\n");
+
+        try (BufferedReader lector = new BufferedReader(new FileReader(archivo))) {
+            String linea;
+            while ((linea = lector.readLine()) != null) {
+                System.out.println(linea);
+            }
+        } catch (IOException e) {
+            System.out.println("Error al leer el archivo de pedidos.");
+            e.printStackTrace();
+        }
+
+        System.out.println("\n*******************************************\n");
+        System.out.println("Presione enter para regresar al menu...");
+        scanner.nextLine(); // Espera que el usuario presione Enter
+
+    }
+
+    /**
+     * Metodo que limpia la pantalla de la terminal
+     */
+    private void limpiarPantalla() {
+        try {
+            new ProcessBuilder("clear").inheritIO().start().waitFor();
+        } catch (Exception e) {
+            System.out.println("No se pudo limpiar la pantalla.");
+        }
     }
 }
 
