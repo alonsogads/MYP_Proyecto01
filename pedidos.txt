@@ -1,0 +1,743 @@
+
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093542
+	Sucursal de origen: Chihuahua
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i5-13600K. Marca Intel. 6 nucleos.
+	*** Precio: $5500.0 MXN
+
+	>> RAM: Adata 16GB. Marca Adata. Capacidad 16 GB.
+	*** Precio: $1200.0 MXN
+
+	>> Placa Base: MSI MEG Godlike. Marca MSI. Chipset Intel Z790 .
+	*** Precio: $30000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 500GB. Marca WD Blue. Capacidad de almacenamiento 500GB. Tipo de almacenamiento HDD.
+	*** Precio: $550.0 MXN
+
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+
+	>> Fuente de Alimentacion: XPG 500W. Marca XPG. 
+	*** Precio: $1500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: Yeyian Lancer ATX. Marca Yeyian. 
+	*** Precio: $3300.0 MXN
+
+	>> Software: AutoCad.
+	*** Precio: $29999.99 MXN
+
+	>> Software: Windows 10.
+	*** Precio: $2499.99 MXN
+
+	***** Costo total: $81049.984 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093559
+	Sucursal de origen: Yucatan
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Adata 8GB. Marca Adata. Capacidad 8 GB.
+	*** Precio: $550.0 MXN
+
+	>> Placa Base: Asus TUF Gaming B760. Marca Asus. Chipset B760 .
+	*** Precio: $5000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: Yeyian Lancer ATX. Marca Yeyian. 
+	*** Precio: $3300.0 MXN
+
+	>> Software: Windows 10.
+	*** Precio: $2499.99 MXN
+
+	>> Software: Windows 11.
+	*** Precio: $4999.99 MXN
+
+	>> Software: TerminalWSL.
+	*** Precio: $0.00 MXN
+
+	>> Software: AutoCad.
+	*** Precio: $29999.99 MXN
+
+	***** Costo total: $59249.97 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093607
+	Sucursal de origen: Chihuahua
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Adata 8GB. Marca Adata. Capacidad 8 GB.
+	*** Precio: $550.0 MXN
+	>> RAM: Kingston 16GB. Marca Kingston. Capacidad 16 GB.
+	*** Precio: $1500.0 MXN
+	>> RAM: Adata 16GB. Marca Adata. Capacidad 16 GB.
+	*** Precio: $1200.0 MXN
+	>> RAM: Kingston 32GB. Marca Kingston. Capacidad 32 GB.
+	*** Precio: $4000.0 MXN
+
+	>> Placa Base: Asus ROG Maximus Z790. Marca Asus. Chipset Z790 .
+	*** Precio: $13000.0 MXN
+
+	>> Disco Duro: Seagate Barracuda 1TB. Marca Seagate. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+	>> Disco Duro: Western Digital Blue 500GB. Marca WD Blue. Capacidad de almacenamiento 500GB. Tipo de almacenamiento HDD.
+	*** Precio: $550.0 MXN
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+
+	>> Disco de estado solido: Kingston 4TB. Marca Kingston. Capacidad de almacenamiento 4TB. Tipo de almacenamiento SSD.
+	*** Precio: $7000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: NZXT H6 Flow ATX. Marca NZXT. 
+	*** Precio: $4000.0 MXN
+
+	>> Software: Windows 11.
+	*** Precio: $4999.99 MXN
+
+	>> Software: TerminalWSL.
+	*** Precio: $0.00 MXN
+
+	>> Software: AutoCad.
+	*** Precio: $29999.99 MXN
+
+	>> Software: Photoshop.
+	*** Precio: $3499.99 MXN
+
+	***** Costo total: $83199.98 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093624
+	Sucursal de origen: Chihuahua
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Kingston 16GB. Marca Kingston. Capacidad 16 GB.
+	*** Precio: $1500.0 MXN
+	>> RAM: Adata 32GB. Marca Adata. Capacidad 32 GB.
+	*** Precio: $2500.0 MXN
+	>> RAM: Kingston 8GB. Marca Kingston. Capacidad 8 GB.
+	*** Precio: $700.0 MXN
+
+	>> Placa Base: Asus ROG Maximus Z790. Marca Asus. Chipset Z790 .
+	*** Precio: $13000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 500GB. Marca WD Blue. Capacidad de almacenamiento 500GB. Tipo de almacenamiento HDD.
+	*** Precio: $550.0 MXN
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+	>> Disco Duro: Seagate Barracuda 2TB. Marca Seagate. Capacidad de almacenamiento 2TB. Tipo de almacenamiento HDD.
+	*** Precio: $1500.0 MXN
+	>> Disco Duro: Seagate Barracuda 1TB. Marca Seagate. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+
+	>> Disco de estado solido: Kingston 1TB. Marca Kingston. Capacidad de almacenamiento 1TB. Tipo de almacenamiento SSD.
+	*** Precio: $1800.0 MXN
+	>> Disco de estado solido: Kingston 4TB. Marca Kingston. Capacidad de almacenamiento 4TB. Tipo de almacenamiento SSD.
+	*** Precio: $7000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: NZXT H6 Flow ATX. Marca NZXT. 
+	*** Precio: $4000.0 MXN
+
+	***** Costo total: $45450.0 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093640
+	Sucursal de origen: Chihuahua
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Kingston 32GB. Marca Kingston. Capacidad 32 GB.
+	*** Precio: $4000.0 MXN
+	>> RAM: Adata 16GB. Marca Adata. Capacidad 16 GB.
+	*** Precio: $1200.0 MXN
+	>> RAM: Adata 32GB. Marca Adata. Capacidad 32 GB.
+	*** Precio: $2500.0 MXN
+
+	>> Placa Base: Asus ROG Maximus Z790. Marca Asus. Chipset Z790 .
+	*** Precio: $13000.0 MXN
+
+	>> Disco Duro: Seagate Barracuda 2TB. Marca Seagate. Capacidad de almacenamiento 2TB. Tipo de almacenamiento HDD.
+	*** Precio: $1500.0 MXN
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+	>> Disco Duro: Western Digital Blue 500GB. Marca WD Blue. Capacidad de almacenamiento 500GB. Tipo de almacenamiento HDD.
+	*** Precio: $550.0 MXN
+
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+	>> Disco de estado solido: Kingston 4TB. Marca Kingston. Capacidad de almacenamiento 4TB. Tipo de almacenamiento SSD.
+	*** Precio: $7000.0 MXN
+	>> Disco de estado solido: Kingston 1TB. Marca Kingston. Capacidad de almacenamiento 1TB. Tipo de almacenamiento SSD.
+	*** Precio: $1800.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: NZXT H6 Flow ATX. Marca NZXT. 
+	*** Precio: $4000.0 MXN
+
+	>> Software: AutoCad.
+	*** Precio: $29999.99 MXN
+
+	>> Software: Office365.
+	*** Precio: $1799.99 MXN
+
+	>> Software: TerminalWSL.
+	*** Precio: $0.00 MXN
+
+	>> Software: Photoshop.
+	*** Precio: $3499.99 MXN
+
+	***** Costo total: $83749.98 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093652
+	Sucursal de origen: Jalisco
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i5-13600K. Marca Intel. 6 nucleos.
+	*** Precio: $5500.0 MXN
+
+	>> RAM: Adata 16GB. Marca Adata. Capacidad 16 GB.
+	*** Precio: $1200.0 MXN
+
+	>> Placa Base: MSI MEG Godlike. Marca MSI. Chipset Intel Z790 .
+	*** Precio: $30000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 500GB. Marca WD Blue. Capacidad de almacenamiento 500GB. Tipo de almacenamiento HDD.
+	*** Precio: $550.0 MXN
+
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+
+	>> Fuente de Alimentacion: XPG 500W. Marca XPG. 
+	*** Precio: $1500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: Yeyian Lancer ATX. Marca Yeyian. 
+	*** Precio: $3300.0 MXN
+
+	***** Costo total: $48550.0 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093707
+	Sucursal de origen: Jalisco
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Adata 8GB. Marca Adata. Capacidad 8 GB.
+	*** Precio: $550.0 MXN
+
+	>> Placa Base: Asus TUF Gaming B760. Marca Asus. Chipset B760 .
+	*** Precio: $5000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: Yeyian Lancer ATX. Marca Yeyian. 
+	*** Precio: $3300.0 MXN
+
+	***** Costo total: $21750.0 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093717
+	Sucursal de origen: Chihuahua
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Adata 8GB. Marca Adata. Capacidad 8 GB.
+	*** Precio: $550.0 MXN
+
+	>> Placa Base: Asus TUF Gaming B760. Marca Asus. Chipset B760 .
+	*** Precio: $5000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: Yeyian Lancer ATX. Marca Yeyian. 
+	*** Precio: $3300.0 MXN
+
+	***** Costo total: $21750.0 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093730
+	Sucursal de origen: Chihuahua
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i7-13700K. Marca Intel. 8 nucleos.
+	*** Precio: $7000.0 MXN
+
+	>> RAM: Kingston 16GB. Marca Kingston. Capacidad 16 GB.
+	*** Precio: $1500.0 MXN
+	>> RAM: Kingston 16GB. Marca Kingston. Capacidad 16 GB.
+	*** Precio: $1500.0 MXN
+
+	>> Placa Base: MSI MAG B760. Marca MSI. Chipset B760 .
+	*** Precio: $4800.0 MXN
+
+	>> Disco Duro: Seagate Barracuda 2TB. Marca Seagate. Capacidad de almacenamiento 2TB. Tipo de almacenamiento HDD.
+	*** Precio: $1500.0 MXN
+
+	>> Disco de estado solido: Kingston 1TB. Marca Kingston. Capacidad de almacenamiento 1TB. Tipo de almacenamiento SSD.
+	*** Precio: $1800.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA RTX4070. Marca NVIDIA. Tipo de memoria GDDR6X.
+	*** Precio: $16000.0 MXN
+
+	>> Gabinete: NZXT H6 Flow ATX. Marca NZXT. 
+	*** Precio: $4000.0 MXN
+
+	***** Costo total: $40600.0 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093740
+	Sucursal de origen: Chihuahua
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Adata 8GB. Marca Adata. Capacidad 8 GB.
+	*** Precio: $550.0 MXN
+
+	>> Placa Base: Asus TUF Gaming B760. Marca Asus. Chipset B760 .
+	*** Precio: $5000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: Yeyian Lancer ATX. Marca Yeyian. 
+	*** Precio: $3300.0 MXN
+
+	>> Software: TerminalWSL.
+	*** Precio: $0.00 MXN
+
+	>> Software: Photoshop.
+	*** Precio: $3499.99 MXN
+
+	>> Software: Office365.
+	*** Precio: $1799.99 MXN
+
+	>> Software: Windows 10.
+	*** Precio: $2499.99 MXN
+
+	***** Costo total: $29549.97 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093755
+	Sucursal de origen: Jalisco
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i7-13700K. Marca Intel. 8 nucleos.
+	*** Precio: $7000.0 MXN
+
+	>> RAM: Kingston 16GB. Marca Kingston. Capacidad 16 GB.
+	*** Precio: $1500.0 MXN
+	>> RAM: Kingston 16GB. Marca Kingston. Capacidad 16 GB.
+	*** Precio: $1500.0 MXN
+
+	>> Placa Base: MSI MAG B760. Marca MSI. Chipset B760 .
+	*** Precio: $4800.0 MXN
+
+	>> Disco Duro: Seagate Barracuda 2TB. Marca Seagate. Capacidad de almacenamiento 2TB. Tipo de almacenamiento HDD.
+	*** Precio: $1500.0 MXN
+
+	>> Disco de estado solido: Kingston 1TB. Marca Kingston. Capacidad de almacenamiento 1TB. Tipo de almacenamiento SSD.
+	*** Precio: $1800.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA RTX4070. Marca NVIDIA. Tipo de memoria GDDR6X.
+	*** Precio: $16000.0 MXN
+
+	>> Gabinete: NZXT H6 Flow ATX. Marca NZXT. 
+	*** Precio: $4000.0 MXN
+
+	>> Software: TerminalWSL.
+	*** Precio: $0.00 MXN
+
+	>> Software: AutoCad.
+	*** Precio: $29999.99 MXN
+
+	>> Software: Office365.
+	*** Precio: $1799.99 MXN
+
+	>> Software: Windows 10.
+	*** Precio: $2499.99 MXN
+
+	>> Software: Windows 11.
+	*** Precio: $4999.99 MXN
+
+	***** Costo total: $79899.97 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093756
+	Sucursal de origen: Jalisco
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Adata 8GB. Marca Adata. Capacidad 8 GB.
+	*** Precio: $550.0 MXN
+
+	>> Placa Base: Asus TUF Gaming B760. Marca Asus. Chipset B760 .
+	*** Precio: $5000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: Yeyian Lancer ATX. Marca Yeyian. 
+	*** Precio: $3300.0 MXN
+
+	>> Software: Photoshop.
+	*** Precio: $3499.99 MXN
+
+	>> Software: TerminalWSL.
+	*** Precio: $0.00 MXN
+
+	>> Software: Windows 11.
+	*** Precio: $4999.99 MXN
+
+	***** Costo total: $30249.98 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093806
+	Sucursal de origen: Jalisco
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Kingston 16GB. Marca Kingston. Capacidad 16 GB.
+	*** Precio: $1500.0 MXN
+	>> RAM: Adata 16GB. Marca Adata. Capacidad 16 GB.
+	*** Precio: $1200.0 MXN
+	>> RAM: Adata 32GB. Marca Adata. Capacidad 32 GB.
+	*** Precio: $2500.0 MXN
+
+	>> Placa Base: Asus ROG Maximus Z790. Marca Asus. Chipset Z790 .
+	*** Precio: $13000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+	>> Disco Duro: Western Digital Blue 500GB. Marca WD Blue. Capacidad de almacenamiento 500GB. Tipo de almacenamiento HDD.
+	*** Precio: $550.0 MXN
+	>> Disco Duro: Seagate Barracuda 2TB. Marca Seagate. Capacidad de almacenamiento 2TB. Tipo de almacenamiento HDD.
+	*** Precio: $1500.0 MXN
+	>> Disco Duro: Seagate Barracuda 1TB. Marca Seagate. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: NZXT H6 Flow ATX. Marca NZXT. 
+	*** Precio: $4000.0 MXN
+
+	>> Software: Photoshop.
+	*** Precio: $3499.99 MXN
+
+	>> Software: Office365.
+	*** Precio: $1799.99 MXN
+
+	***** Costo total: $43449.977 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093816
+	Sucursal de origen: Jalisco
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Kingston 32GB. Marca Kingston. Capacidad 32 GB.
+	*** Precio: $4000.0 MXN
+
+	>> Placa Base: Asus ROG Maximus Z790. Marca Asus. Chipset Z790 .
+	*** Precio: $13000.0 MXN
+
+	>> Disco Duro: Seagate Barracuda 1TB. Marca Seagate. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+	>> Disco Duro: Western Digital Blue 500GB. Marca WD Blue. Capacidad de almacenamiento 500GB. Tipo de almacenamiento HDD.
+	*** Precio: $550.0 MXN
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+
+	>> Disco de estado solido: Kingston 1TB. Marca Kingston. Capacidad de almacenamiento 1TB. Tipo de almacenamiento SSD.
+	*** Precio: $1800.0 MXN
+	>> Disco de estado solido: Kingston 2TB. Marca Kingston. Capacidad de almacenamiento 2TB. Tipo de almacenamiento SSD.
+	*** Precio: $3000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: NZXT H6 Flow ATX. Marca NZXT. 
+	*** Precio: $4000.0 MXN
+
+	>> Software: Office365.
+	*** Precio: $1799.99 MXN
+
+	***** Costo total: $41049.99 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093826
+	Sucursal de origen: Chihuahua
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Adata 8GB. Marca Adata. Capacidad 8 GB.
+	*** Precio: $550.0 MXN
+
+	>> Placa Base: Asus ROG Maximus Z790. Marca Asus. Chipset Z790 .
+	*** Precio: $13000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+	>> Disco Duro: Seagate Barracuda 1TB. Marca Seagate. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+	>> Disco Duro: Seagate Barracuda 2TB. Marca Seagate. Capacidad de almacenamiento 2TB. Tipo de almacenamiento HDD.
+	*** Precio: $1500.0 MXN
+
+	>> Disco de estado solido: Kingston 1TB. Marca Kingston. Capacidad de almacenamiento 1TB. Tipo de almacenamiento SSD.
+	*** Precio: $1800.0 MXN
+	>> Disco de estado solido: Kingston 4TB. Marca Kingston. Capacidad de almacenamiento 4TB. Tipo de almacenamiento SSD.
+	*** Precio: $7000.0 MXN
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: NZXT H6 Flow ATX. Marca NZXT. 
+	*** Precio: $4000.0 MXN
+
+	>> Software: Office365.
+	*** Precio: $1799.99 MXN
+
+	>> Software: AutoCad.
+	*** Precio: $29999.99 MXN
+
+	>> Software: Windows 11.
+	*** Precio: $4999.99 MXN
+
+	>> Software: Windows 10.
+	*** Precio: $2499.99 MXN
+
+	>> Software: Photoshop.
+	*** Precio: $3499.99 MXN
+
+	***** Costo total: $84549.95 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093841
+	Sucursal de origen: Chihuahua
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i3-13100. Marca Intel. 4 nucleos.
+	*** Precio: $2900.0 MXN
+
+	>> RAM: Adata 8GB. Marca Adata. Capacidad 8 GB.
+	*** Precio: $550.0 MXN
+
+	>> Placa Base: Asus TUF Gaming B760. Marca Asus. Chipset B760 .
+	*** Precio: $5000.0 MXN
+
+	>> Disco Duro: Western Digital Blue 1TB. Marca WD Blue. Capacidad de almacenamiento 1TB. Tipo de almacenamiento HDD.
+	*** Precio: $1000.0 MXN
+
+	>> Disco de estado solido: Kingston 500GB. Marca Kingston. Capacidad de almacenamiento 500GB. Tipo de almacenamiento SSD.
+	*** Precio: $1000.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA GTX1660. Marca NVIDIA. Tipo de memoria GDDR5.
+	*** Precio: $5500.0 MXN
+
+	>> Gabinete: Yeyian Lancer ATX. Marca Yeyian. 
+	*** Precio: $3300.0 MXN
+
+	>> Software: TerminalWSL.
+	*** Precio: $0.00 MXN
+
+	>> Software: Photoshop.
+	*** Precio: $3499.99 MXN
+
+	>> Software: Windows 11.
+	*** Precio: $4999.99 MXN
+
+	>> Software: Office365.
+	*** Precio: $1799.99 MXN
+
+	>> Software: Windows 10.
+	*** Precio: $2499.99 MXN
+
+	***** Costo total: $34549.96 MXN.
+
+========== Ticket de Compra ==========
+
+	Pedido: 20250422_093851
+	Sucursal de origen: Yucatan
+
+	----- Descripcion del pedido -----
+
+	>> CPU: Intel Core i7-13700K. Marca Intel. 8 nucleos.
+	*** Precio: $7000.0 MXN
+
+	>> RAM: Kingston 16GB. Marca Kingston. Capacidad 16 GB.
+	*** Precio: $1500.0 MXN
+	>> RAM: Kingston 16GB. Marca Kingston. Capacidad 16 GB.
+	*** Precio: $1500.0 MXN
+
+	>> Placa Base: MSI MAG B760. Marca MSI. Chipset B760 .
+	*** Precio: $4800.0 MXN
+
+	>> Disco Duro: Seagate Barracuda 2TB. Marca Seagate. Capacidad de almacenamiento 2TB. Tipo de almacenamiento HDD.
+	*** Precio: $1500.0 MXN
+
+	>> Disco de estado solido: Kingston 1TB. Marca Kingston. Capacidad de almacenamiento 1TB. Tipo de almacenamiento SSD.
+	*** Precio: $1800.0 MXN
+
+	>> Fuente de Alimentacion: EVGA800W. Marca EVGA. 
+	*** Precio: $2500.0 MXN
+
+	>> GPU: NVIDIA RTX4070. Marca NVIDIA. Tipo de memoria GDDR6X.
+	*** Precio: $16000.0 MXN
+
+	>> Gabinete: NZXT H6 Flow ATX. Marca NZXT. 
+	*** Precio: $4000.0 MXN
+
+	***** Costo total: $40600.0 MXN.
